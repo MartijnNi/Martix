@@ -1,12 +1,20 @@
 let streams;
+let canvasContainer;
 
 function setup() {
-  createCanvas(innerWidth, innerHeight);
+  canvasContainer = document.createElement('div');
+  canvasContainer.style.position = 'fixed';
+  canvasContainer.style.left = '0';
+  canvasContainer.style.top = '0';
+  document.body.appendChild(canvasContainer);
+
+  const canvas = createCanvas(innerWidth - 17, innerHeight);
+  canvas.parent(canvasContainer);
+
   textFont('monospace', 16);
   colorMode(HSL);
   streams = Streams();
 }
-
 function draw() {
   // opacity set on background to add a bit of a blur effect
   background(0, 0, 0, 0.6);
