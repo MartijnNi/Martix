@@ -3,9 +3,7 @@ let canvasContainer;
 
 function setup() {
   canvasContainer = document.createElement('div');
-  canvasContainer.style.position = 'fixed';
-  canvasContainer.style.left = '0';
-  canvasContainer.style.top = '0';
+  canvasContainer.style = 'position: fixed; left: 0; top: 0;';
   document.body.appendChild(canvasContainer);
 
   const canvas = createCanvas(innerWidth - 17, innerHeight);
@@ -15,61 +13,40 @@ function setup() {
   colorMode(HSL);
   streams = Streams();
 }
+
 function draw() {
-  // opacity set on background to add a bit of a blur effect
   background(0, 0, 0, 0.6);
   streams.draw();
 }
 
 function Streams() {
-  // set up the streams
   const streams = [];
   for (let i = 0; i < innerWidth / textSize(); i++) {
     const x = i * textSize();
     const y = round(random(-1000, 0));
     const speed = round(random(3, 7));
     const length = round(random(1, innerHeight / textSize()));
-    const stream = Stream(x, y, speed, length);
-    streams.push(stream);
+    streams.push(Stream(x, y, speed, length));
   }
-
-  // return object with access to draw function
   return {
-    draw: function () {
-      for (let i = 0, length = streams.length; i < length; i++) {
-        streams[i].draw();
-      }
+    draw() {
+      streams.forEach(stream => stream.draw());
     }
-  }
+  };
 }
 
 function Stream(x, y, speed, length) {
-  // setup symbols in stream
   const symbols = [];
   for (let i = 0; i < length; i++) {
     const changeRate = round(random(20, 40));
-    let lightness;
-    if (i === 0) {
-      lightness = (1 - (i / length)) * 100;
-    } else if (i === 1) {
-      lightness = (1 - (i / length)) * 95;
-    } else if (i === 2) {
-      lightness = (1 - (i / length)) * 90;
-    } else {
-      lightness = (1 - (i / length)) * 50;
-    }
+    const lightness = (i < 3) ? (1 - (i / length)) * (100 - i * 5) : (1 - (i / length)) * 50;
     const colour = [120, 100, lightness];
-    const symbol = Symbol(x, y, speed, changeRate, colour);
-    symbols.push(symbol);
+    symbols.push(Symbol(x, y, speed, changeRate, colour));
     y -= textSize();
   }
-
-  // return object with access to draw function
   return {
-    draw: function () {
-      for (let i = 0, length = symbols.length; i < length; i++) {
-        symbols[i].draw();
-      }
+    draw() {
+      symbols.forEach(symbol => symbol.draw());
     }
   };
 }
@@ -77,9 +54,8 @@ function Stream(x, y, speed, length) {
 function Symbol(x, y, speed, changeRate, colour) {
   let character;
 
-  // return object with access to draw function
   return {
-    draw: function () {
+    draw() {
       if (frameCount % changeRate === 0 || !character) {
         character = char(round(random(65381, 65440)));
       }

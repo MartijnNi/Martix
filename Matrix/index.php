@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="navbar/navbar.css">
     <link rel="stylesheet" href="/MatrixEfx/MatrixEfx.css">
     <link rel="stylesheet" href="index.css">
-    <link rel="shortcut icon" href="/Content/Matrix-Brackets-logo-transparant.png" type="image/x-icon">
+    <link rel="shortcut icon" href="../Content/Matrix-Brackets-logo-transparant.png" type="image/x-icon">
     <link href="https://fonts.googleapis.com/earlyaccess/sawarabigothic.css" rel="stylesheet" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.0/p5.js" type="text/javascript"></script>
     <title>Matrix | Home</title>
@@ -17,9 +17,10 @@
 <body>
     <?php include 'navbar/navbar.php'; ?>
     <div class="container-content">
-        <div class="logo">
-            <img src="#" alt="Logo">
+        <div class="logo-container">
+            <img src="Content/Matrix-name-logo-full.png" alt="Logo">
         </div>
+
     </div>
 </body>
 <script src="/MatrixEfx/indexMatrix.js"></script>

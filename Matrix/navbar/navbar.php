@@ -10,9 +10,4 @@
         </button>
     </div>
 </nav>
-
-<div id="MenuOverlay">
-    
-</div>
-
 </html>
