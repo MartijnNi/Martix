@@ -18,9 +18,16 @@
     <?php include 'navbar/navbar.php'; ?>
     <div class="container-content">
         <div class="logo-container">
-            <img src="Content/Matrix-name-logo-full.png" alt="Logo">
+            <h1> MATRIX<a>&copy;</a></h1>
         </div>
+    </div>
+    <div class="container-down">
+        <div class="container-left">
+            
+        </div>
+        <div class="container-right">
 
+        </div>
     </div>
 </body>
 <script src="/MatrixEfx/indexMatrix.js"></script>

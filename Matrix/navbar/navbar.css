@@ -1,15 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&family=Gruppo&display=swap');
+
 .nav-container {
   display: flex;
   justify-content: center; /* Center horizontally */
   align-items: center; /* Center vertically */
   background-color: transparent;
-  position: absolute;
-  z-index: 1;
+  position: fixed;
+  z-index: 4;
   top: 0;
   left: 50%; /* Move container to the middle of the screen */
   transform: translateX(-50%); /* Adjust the position to center */
 }
   .menu {
+    z-index: 4;
     background-color: transparent;
     border: none;
     cursor: pointer;
@@ -17,6 +20,7 @@
     padding: 0;
   }
   .line {
+    z-index: 4;
     fill: none;
     stroke: rgb(255, 255, 255);
     stroke-width: 4;
@@ -51,5 +55,35 @@
     stroke-width: 4;
   }
   
-  /*________________________________________________________________*/
+  /*____________________Overlay Menu______________________________________*/
 
+  #ContainerMenu{
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-color: #000000d5;
+    z-index: 3;
+  }
+
+  ul {
+    list-style: none; /* Remove bullet points */
+    padding: 0;
+    margin: 0;
+  }
+  
+  li a {
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Inherit the color from the parent element */
+  }
+
+  .listMenu{
+    position: relative;
+    color: aliceblue;
+    text-decoration: none;
+    border: red 2px ;
+    text-align: center;
+    margin-top: 7.5rem;
+    font-family: 'Gruppo', cursive;
+    font-size: 55px;
+  }

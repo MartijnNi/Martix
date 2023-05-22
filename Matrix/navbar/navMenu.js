@@ -1,10 +1,14 @@
-  const toggleButton = document.getElementById('MenuButton');
-  const myDiv = document.getElementById('MenuOverlay');
+const toggleButton = document.getElementById('MenuButton');
+const containerMenu = document.getElementById('ContainerMenu');
 
-  toggleButton.addEventListener('click', function() {
-    console.log('Test')
-    myDiv.classList.toggle('block');
-    canvasContainer.style.display = (canvasContainer.style.display === 'none') ? 'block' : 'none';
+toggleButton.addEventListener('click', function() {
+  if (containerMenu.style.display === 'block') {
+    containerMenu.style.display = 'none';
+    
+  } else {
+    containerMenu.style.display = 'block';
+  }
+});
 
-  });
+
 
