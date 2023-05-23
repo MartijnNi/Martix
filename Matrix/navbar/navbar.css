@@ -56,27 +56,28 @@
   }
   
   /*____________________Overlay Menu______________________________________*/
-
-  #ContainerMenu{
+  
+  
+  #ContainerMenu {
     display: none;
     width: 100%;
     height: 100%;
     position: fixed;
-    background-color: #000000d5;
+    background-color: #000000dd;
     z-index: 3;
   }
-
+  
   ul {
-    list-style: none; /* Remove bullet points */
+    list-style: none;
     padding: 0;
     margin: 0;
   }
   
   li a {
-    text-decoration: none; /* Remove underline */
-    color: inherit; /* Inherit the color from the parent element */
+    text-decoration: none; 
+    color: inherit; 
   }
-
+  
   .listMenu{
     position: relative;
     color: aliceblue;
@@ -87,3 +88,11 @@
     font-family: 'Gruppo', cursive;
     font-size: 55px;
   }
+  
+  /*____________________Hover Menu______________________________________*/
+
+  .listMenu ul li a:hover {
+    transform: scale(1.5);
+  }
+  
+  
