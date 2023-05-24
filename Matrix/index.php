@@ -42,7 +42,7 @@
         </div>
     </div>
 </body>
-<script src="/MatrixEfx/indexMatrix.js"></script>
+<script src="./MatrixEfx.js"></script>
 <script src="/navbar/navMenu.js"></script>
 
 </html>

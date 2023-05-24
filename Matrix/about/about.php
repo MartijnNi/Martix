@@ -13,10 +13,16 @@
 
 <body>
     <?php include '../navbar/navbar.php'; ?>
-    <div id="SContainer">
-        <div class="screencontainer"></div>
+    <div id="particles-js"></div>
+    <div class="screen1Container">
+        <div class="titelContainer">
+            <h1>About me</h1>
+        </div>
     </div>
 </body>
+<script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> <!-- stats.js lib -->
+<script src="http://threejs.org/examples/js/libs/stats.min.js"></script>
 <script src="../navbar/navMenu.js"></script>
+<script src="aboutBackgroundParticels.js"></script>
 
 </html>

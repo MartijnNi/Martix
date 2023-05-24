@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&family=Gruppo&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap');
-
-html, body {
+@import url("https://fonts.googleapis.com/css2?family=Bruno+Ace&family=Gruppo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abel&display=swap");
+html,
+body {
   height: 100%;
   max-width: 100%;
   margin: 0;
@@ -13,22 +13,22 @@ html, body {
   z-index: 2;
 }
 
-.container-content{
+.container-content {
   display: flex;
   align-items: center; /* Center vertically */
   justify-content: center; /* Center horizontally */
   height: 100%; /* Occupy full height of the viewport */
 }
 
-.logo-container{
+.logo-container {
   z-index: 2;
   display: flex;
   justify-content: center;
   height: 200px;
   align-items: center;
-  font-family: 'Gruppo', cursive;
+  font-family: "Abel", sans-serif;
   font-size: 100px;
-  text-shadow: rgba(16,110,16,1) 0px 0px 30px;
+  text-shadow: rgba(16, 110, 16, 1) 0px 0px 30px;
   color: rgb(255, 255, 255);
 }
 
@@ -36,15 +36,15 @@ html, body {
   font-size: 50px;
 }
 
-.container-down{
+.container-down {
   display: flex;
   flex-direction: row;
   height: 100%;
-  border: red solid 2px;
-
+  border: red 2px;
 }
 
-.container-left,.container-right{
+.container-left,
+.container-right {
   z-index: 2;
   display: flex;
   justify-content: center;
@@ -56,24 +56,24 @@ html, body {
   width: 100%;
   height: 85%;
   color: white;
-  font-family: 'Gruppo', cursive;
-  font-size: 25px;  
+  font-family: "Gruppo", cursive;
+  font-size: 25px;
 }
-.container-left{
+.container-left {
   align-items: center;
   flex-direction: column;
 }
 
-.container-left-tekst{
+.container-left-tekst {
   text-align: center;
 }
 
-.container-right{
+.container-right {
   align-items: center;
   flex-direction: column;
 }
 
-.container-right-tekst{
+.container-right-tekst {
   text-align: center;
   text-decoration: dotted;
 }
@@ -83,5 +83,3 @@ html, body {
   width: 700px;
   height: auto;
 }
-
-
