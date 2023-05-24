@@ -1,0 +1,16 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    z-index: 0;
+}
+
+.screencontainer{
+    border: red solid 2px;
+    z-index: 1;
+    width: auto;
+    height: 100vh;
+    background-color: white;
+}
+
+
+
