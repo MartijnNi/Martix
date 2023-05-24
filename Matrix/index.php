@@ -37,7 +37,7 @@
         <div class="container-right">
             <img src="./Content/MatrixPrf.jpg.png" alt="">
             <div class="container-right-tekst">
-                <p>Matrix (Martijn Nieuwenburg)</p>
+                <p>Martijn Nieuwenburg</p>
             </div>
         </div>
     </div>

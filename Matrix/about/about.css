@@ -10,7 +10,7 @@ html {
 #particles-js {
   position: absolute;
   width: 100%;
-  height: 100%;
+  height: 100vh;
   background: #000000;
   z-index: 1;
 }
@@ -32,6 +32,14 @@ html {
   width: 100%;
 
   color: white;
+  text-shadow: rgba(16, 110, 16, 1) 0px 0px 30px;
   font-family: "Abel", sans-serif;
   font-size: 100px;
+  letter-spacing: 15px;
+}
+
+.screen2Container {
+  width: auto;
+  height: 100vh;
+  z-index: 2;
 }

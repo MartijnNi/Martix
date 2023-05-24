@@ -28,6 +28,7 @@ body {
   align-items: center;
   font-family: "Abel", sans-serif;
   font-size: 100px;
+  letter-spacing: 17px;
   text-shadow: rgba(16, 110, 16, 1) 0px 0px 30px;
   color: rgb(255, 255, 255);
 }

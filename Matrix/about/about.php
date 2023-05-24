@@ -16,8 +16,11 @@
     <div id="particles-js"></div>
     <div class="screen1Container">
         <div class="titelContainer">
-            <h1>About me</h1>
+            <h1>About</h1>
         </div>
+    </div>
+    <div class="screen2Container">
+
     </div>
 </body>
 <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> <!-- stats.js lib -->
