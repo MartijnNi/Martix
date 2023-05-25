@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Bruno+Ace&family=Gruppo&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Abel&display=swap");
+@import url("https://fonts.cdnfonts.com/css/matrix");
+
 html,
 body {
   height: 100%;
@@ -13,21 +15,34 @@ body {
   z-index: 2;
 }
 
+#muteButton {
+  position: fixed;
+  z-index: 3;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px;
+  background-color: #ccc;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
 .container-content {
   display: flex;
   align-items: center; /* Center vertically */
   justify-content: center; /* Center horizontally */
-  height: 100%; /* Occupy full height of the viewport */
+  height: 90%; /* Occupy full height of the viewport */
 }
 
 .logo-container {
   z-index: 2;
   display: flex;
+  flex-direction: row;
   justify-content: center;
   height: 200px;
   align-items: center;
-  font-family: "Abel", sans-serif;
-  font-size: 100px;
+  font-family: "Matrix", sans-serif;
+  font-size: 80px;
   letter-spacing: 17px;
   text-shadow: rgba(16, 110, 16, 1) 0px 0px 30px;
   color: rgb(255, 255, 255);
@@ -35,6 +50,32 @@ body {
 
 .logo-container a {
   font-size: 50px;
+}
+
+.socialsBarontainer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 10%;
+  z-index: 2;
+}
+
+.socialsBar {
+  border: red 2px;
+  background-color: rgba(18, 18, 18, 0.791);
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+}
+
+.socialsBar,
+i {
+  text-align: center;
+  color: white;
+  text-align: center;
+  letter-spacing: 10px;
+  font-size: 10px;
+  padding-top: 1%;
 }
 
 .container-down {
@@ -67,6 +108,8 @@ body {
 
 .container-left-tekst {
   text-align: center;
+  width: 90%;
+  height: auto;
 }
 
 .container-right {
@@ -81,6 +124,8 @@ body {
 
 .container-right img {
   border-radius: 10px;
-  width: 700px;
+  width: 90%;
   height: auto;
 }
+
+/* socials bar */

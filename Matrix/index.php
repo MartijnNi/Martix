@@ -8,17 +8,31 @@
     <link rel="stylesheet" href="navbar/navbar.css">
     <link rel="stylesheet" href="/MatrixEfx/MatrixEfx.css">
     <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="index2.scss">
     <link rel="shortcut icon" href="../Content/Matrix-Brackets-logo-transparant.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/earlyaccess/sawarabigothic.css" rel="stylesheet" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.0/p5.js" type="text/javascript"></script>
     <title>Matrix | Home</title>
 </head>
 
-<body>
+<body onload="init()">
     <?php include 'navbar/navbar.php'; ?>
+    <button id="muteButton" onclick="toggleMute()">Sound</button>
     <div class="container-content">
         <div class="logo-container">
             <h1> MATRIX<a>&copy;</a></h1>
+        </div>
+    </div>
+    <div class="socialsBarontainer">
+        <div class="socialsBar">
+            <a href="https://twitter.com/?lang=nl" target="_blank"><i class="fa fa-twitter fa-4x icon-3d"></i></a>
+            <a href="https://nl-nl.facebook.com/" target="_blank"><i class="fa fa-facebook fa-4x icon-3d"></i></a>
+            <a href="https://www.instagram.com/djmatrix_/" target="_blank"><i class="fa fa-instagram fa-4x icon-3d"></i></a>
+            <a href="https://open.spotify.com/playlist/5AKRuwSVSIwlPzffvK908w?si=15d677628c9f47f6" target="_blank"><i class="fa fa-spotify fa-4x icon-3d"></i></a>
+            <a href="https://on.soundcloud.com/vxjtu" target="_blank"><i class="fa fa-soundcloud fa-4x icon-3d"></i></a>
+            <a href="https://wa.me/310612732653" target="_blank"><i class="fa fa-whatsapp fa-4x icon-3d"></i></a>
+            <a href="https://github.com/MartijnNi?tab=overview&from=2023-04-01&to=2023-04-30" target="_blank"><i class="fa fa-github fa-4x icon-3d"></i></a>
         </div>
     </div>
     <div class="container-down">

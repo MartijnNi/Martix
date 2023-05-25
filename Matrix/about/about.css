@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Abel&display=swap");
+@import url("https://fonts.cdnfonts.com/css/matrix");
 
 body,
 html {
@@ -17,7 +18,7 @@ html {
 
 .screen1Container {
   display: flex;
-  border: red solid 2px;
+  border: red 2px;
   z-index: 2;
   width: auto;
   height: 100vh;
@@ -33,13 +34,15 @@ html {
 
   color: white;
   text-shadow: rgba(16, 110, 16, 1) 0px 0px 30px;
-  font-family: "Abel", sans-serif;
-  font-size: 100px;
+  font-family: "Matrix", sans-serif;
+  font-size: 30px;
   letter-spacing: 15px;
 }
 
 .screen2Container {
+  background-color: #000000;
   width: auto;
   height: 100vh;
   z-index: 2;
+  border: red solid 2px;
 }

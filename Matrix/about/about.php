@@ -16,7 +16,7 @@
     <div id="particles-js"></div>
     <div class="screen1Container">
         <div class="titelContainer">
-            <h1>About</h1>
+            <h1>About.</h1>
         </div>
     </div>
     <div class="screen2Container">
