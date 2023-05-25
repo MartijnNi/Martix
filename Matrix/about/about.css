@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Bruno+Ace&family=Gruppo&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Abel&display=swap");
 @import url("https://fonts.cdnfonts.com/css/matrix");
 
@@ -6,12 +7,13 @@ html {
   margin: 0;
   padding: 0;
   z-index: 0;
+  background-color: #000000;
 }
 
 #particles-js {
   position: absolute;
   width: 100%;
-  height: 100vh;
+  height: 200vh;
   background: #000000;
   z-index: 1;
 }
@@ -21,7 +23,7 @@ html {
   border: red 2px;
   z-index: 2;
   width: auto;
-  height: 100vh;
+  height: 91vh;
 }
 
 .titelContainer {
@@ -35,14 +37,78 @@ html {
   color: white;
   text-shadow: rgba(16, 110, 16, 1) 0px 0px 30px;
   font-family: "Matrix", sans-serif;
-  font-size: 30px;
+  font-size: 40px;
   letter-spacing: 15px;
 }
 
 .screen2Container {
   background-color: #000000;
+  display: flex;
   width: auto;
   height: 100vh;
+  flex-direction: column;
+}
+
+.titelBar {
+  padding-top: 0.5rem;
   z-index: 2;
-  border: red solid 2px;
+  height: 6rem;
+  width: 100%;
+  background-color: rgba(18, 18, 18, 0.791);
+
+  font-family: "Bruno Ace", cursive;
+  font-size: 30px;
+  text-align: center;
+  justify-content: center;
+  color: aliceblue;
+}
+
+.layoutContainer {
+  z-index: 2;
+  display: flex;
+  margin: 0;
+  padding: 0;
+
+  width: 100%;
+  height: 100%;
+  border: red 2px;
+}
+
+.left,
+.middel,
+.right {
+  width: 33%;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  background-color: #4c4c4c90;
+  font-family: "Gruppo", cursive;
+  border-radius: 15px;
+}
+
+.middel {
+  margin-top: 1rem;
+  height: 50vh;
+  padding: auto;
+}
+
+.leftTitel,
+.middelTitel {
+  text-align: center;
+  color: white;
+  font-size: 30px;
+}
+
+iframe {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  padding: auto;
+}
+
+.left,
+.right {
+  height: 53.3vh;
+  margin-top: 30vh;
 }

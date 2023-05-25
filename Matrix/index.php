@@ -18,7 +18,6 @@
 
 <body onload="init()">
     <?php include 'navbar/navbar.php'; ?>
-    <button id="muteButton" onclick="toggleMute()">Sound</button>
     <div class="container-content">
         <div class="logo-container">
             <h1> MATRIX<a>&copy;</a></h1>
@@ -29,8 +28,8 @@
             <a href="https://twitter.com/?lang=nl" target="_blank"><i class="fa fa-twitter fa-4x icon-3d"></i></a>
             <a href="https://nl-nl.facebook.com/" target="_blank"><i class="fa fa-facebook fa-4x icon-3d"></i></a>
             <a href="https://www.instagram.com/djmatrix_/" target="_blank"><i class="fa fa-instagram fa-4x icon-3d"></i></a>
-            <a href="https://open.spotify.com/playlist/5AKRuwSVSIwlPzffvK908w?si=15d677628c9f47f6" target="_blank"><i class="fa fa-spotify fa-4x icon-3d"></i></a>
             <a href="https://on.soundcloud.com/vxjtu" target="_blank"><i class="fa fa-soundcloud fa-4x icon-3d"></i></a>
+            <a href="https://open.spotify.com/playlist/5AKRuwSVSIwlPzffvK908w?si=15d677628c9f47f6" target="_blank"><i class="fa fa-spotify fa-4x icon-3d"></i></a>
             <a href="https://wa.me/310612732653" target="_blank"><i class="fa fa-whatsapp fa-4x icon-3d"></i></a>
             <a href="https://github.com/MartijnNi?tab=overview&from=2023-04-01&to=2023-04-30" target="_blank"><i class="fa fa-github fa-4x icon-3d"></i></a>
         </div>

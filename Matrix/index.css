@@ -15,18 +15,6 @@ body {
   z-index: 2;
 }
 
-#muteButton {
-  position: fixed;
-  z-index: 3;
-  bottom: 20px;
-  right: 20px;
-  padding: 10px;
-  background-color: #ccc;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
 .container-content {
   display: flex;
   align-items: center; /* Center vertically */
@@ -56,10 +44,10 @@ body {
   display: flex;
   justify-content: center;
   width: 100%;
-  height: 10%;
+  height: 9%;
   z-index: 2;
 }
-
+/* Soclials */
 .socialsBar {
   border: red 2px;
   background-color: rgba(18, 18, 18, 0.791);
@@ -71,12 +59,20 @@ body {
 .socialsBar,
 i {
   text-align: center;
-  color: white;
+  color: rgb(117, 117, 117);
   text-align: center;
   letter-spacing: 10px;
   font-size: 10px;
-  padding-top: 1%;
+  padding-top: 0.7%;
+  transition: transform 0.3s ease;
 }
+
+.socialsBar i:hover {
+  transform: scale(1.3);
+  color: aliceblue;
+}
+
+/* Soclials end*/
 
 .container-down {
   display: flex;
@@ -127,5 +123,3 @@ i {
   width: 90%;
   height: auto;
 }
-
-/* socials bar */
