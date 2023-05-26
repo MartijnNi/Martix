@@ -34,6 +34,7 @@ body {
   letter-spacing: 17px;
   text-shadow: rgba(16, 110, 16, 1) 0px 0px 30px;
   color: rgb(255, 255, 255);
+  user-select: none;
 }
 
 .logo-container a {
@@ -83,6 +84,7 @@ i {
 
 .container-left,
 .container-right {
+  user-select: none;
   z-index: 2;
   display: flex;
   justify-content: center;
