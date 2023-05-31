@@ -96,7 +96,7 @@ i {
   height: 85%;
   color: white;
   font-family: "Gruppo", cursive;
-  font-size: 2.5vh;
+  font-size: 2.8vh;
 }
 .container-left {
   align-items: center;
@@ -121,11 +121,11 @@ i {
 
 .container-right img {
   border-radius: 10px;
-  width: 90vw;
+  width: 90%;
   height: auto;
 }
 
-@media screen and (max-width: 450px) {
+@media (max-width: 450px) {
   .logo-container {
     z-index: 2;
     display: flex;
@@ -177,5 +177,11 @@ i {
     color: white;
     font-family: "Gruppo", cursive;
     font-size: 2vh;
+  }
+
+  .container-right img {
+    border-radius: 10px;
+    width: 90vw;
+    height: auto;
   }
 }
