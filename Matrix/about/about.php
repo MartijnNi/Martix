@@ -16,7 +16,7 @@
     <div id="particles-js"></div>
     <div class="screen1Container">
         <div class="titelContainer">
-            <h1>About.</h1>
+            <h1>About</h1>
         </div>
     </div>
     <div class="socialsBarontainer">
@@ -52,8 +52,6 @@
     <div class="screen3Container">
         <div class="titelBar2">
             <p>Events</p>
-            <div class="agenda-container">
-            </div>
         </div>
     </div>
 </body>
