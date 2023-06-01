@@ -37,7 +37,7 @@ html {
   color: white;
   text-shadow: rgba(16, 110, 16, 1) 0px 0px 30px;
   font-family: "Matrix", sans-serif;
-  font-size: 45px;
+  font-size: 4vw;
   letter-spacing: 15px;
   user-select: none;
 }
@@ -153,6 +153,22 @@ iframe {
     z-index: 2;
     width: auto;
     height: 91vh;
+  }
+
+  .titelContainer {
+    z-index: 2;
+    display: flex;
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+    height: 100%; /* Occupy full height of the viewport */
+    width: 100%;
+
+    color: white;
+    text-shadow: rgba(16, 110, 16, 1) 0px 0px 30px;
+    font-family: "Matrix", sans-serif;
+    font-size: 6vw;
+    letter-spacing: 15px;
+    user-select: none;
   }
 
   .screen2Container {
