@@ -51,7 +51,9 @@
     </div>
     <div class="screen3Container">
         <div class="titelBar2">
-            <p>Test</p>
+            <p>Events</p>
+            <div class="agenda-container">
+            </div>
         </div>
     </div>
 </body>

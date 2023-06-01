@@ -20,7 +20,7 @@
     <?php include 'navbar/navbar.php'; ?>
     <div class="container-content">
         <div class="logo-container">
-            <h1> MATRIX</h1>
+            <h1>MATRIX</h1>
         </div>
     </div>
     <div class="socialsBarontainer">
