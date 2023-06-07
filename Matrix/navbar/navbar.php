@@ -16,7 +16,7 @@
         <ul>
             <li><a href="../index.php">Home</a></li>
             <li><a href="../about/about.php">About</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li><a href="../Contact/contact.php">Contact</a></li>
             <li><a href="gallery.html">Gallery</a></li>
         </ul>
 

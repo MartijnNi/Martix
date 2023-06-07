@@ -26,15 +26,16 @@ body {
   z-index: 2;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   height: 200px;
   align-items: center;
+  justify-content: center;
   font-family: "Matrix", sans-serif;
-  font-size: 6vw;
+  font-size: 5vw;
   letter-spacing: 17px;
   text-shadow: rgba(16, 110, 16, 1) 0px 0px 30px;
   color: rgb(255, 255, 255);
   user-select: none;
+  margin: auto;
 }
 
 .logo-container a {

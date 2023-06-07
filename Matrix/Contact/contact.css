@@ -1,0 +1,41 @@
+@import url("https://fonts.cdnfonts.com/css/matrix");
+
+* {
+  margin: 0;
+  padding: 0;
+  z-index: 1;
+}
+
+.page1ContainerBackground {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: radial-gradient(ellipse at bottom, #0d1d31 0%, #0c0d13 100%);
+  overflow: hidden;
+}
+
+.page1ContainerTitel {
+  z-index: 2;
+  display: flex;
+  height: 200px;
+  align-items: center;
+  justify-content: center;
+  font-family: "Matrix", sans-serif;
+  font-size: 4.5vw;
+  letter-spacing: 17px;
+  text-shadow: rgba(16, 110, 16, 1) 0px 0px 30px;
+  color: rgb(255, 255, 255);
+  user-select: none;
+  margin: auto;
+}
+
+.page2container {
+  z-index: 2;
+  border: red solid 2px;
+  display: flex;
+  margin: 0;
+  height: 100vh;
+  font-weight: 100;
+  background-color: #6a6a6a;
+}
