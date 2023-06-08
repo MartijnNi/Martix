@@ -6,12 +6,21 @@
   z-index: 1;
 }
 
+body {
+  background-color: #000000;
+  background-image: radial-gradient(
+      circle at top right,
+      rgba(0, 0, 0, 0.13),
+      transparent
+    ),
+    radial-gradient(circle at 20% 80%, rgba(41, 196, 255, 0.13), transparent);
+}
+
 .page1ContainerBackground {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
-  background: radial-gradient(ellipse at bottom, #0d1d31 0%, #0c0d13 100%);
+  min-height: 90vh;
   overflow: hidden;
 }
 
@@ -30,12 +39,86 @@
   margin: auto;
 }
 
+.titelBar {
+  display: flex;
+  position: sticky;
+  padding-top: 2.4rem;
+  z-index: 2;
+  height: 3.5rem;
+  width: 100%;
+  background-color: rgba(35, 35, 35, 0.791);
+
+  font-family: "Bruno Ace", cursive;
+  font-size: 30px;
+  text-align: center;
+  justify-content: center;
+  color: aliceblue;
+  user-select: none;
+}
+
+/* Animations bg */
+
+canvas {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+}
+.a {
+  position: absolute;
+  bottom: 2vmin;
+  right: 2vmin;
+  color: rgba(255, 255, 255, 0.2);
+  text-decoration: none;
+}
+a:hover {
+  color: #fff;
+}
+
+/* end Animation bg */
+
 .page2container {
   z-index: 2;
-  border: red solid 2px;
+  border: red 2px;
   display: flex;
   margin: 0;
-  height: 100vh;
+  height: 75vh;
   font-weight: 100;
-  background-color: #6a6a6a;
+}
+
+.page2containerMail {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: 8rem;
+}
+
+form {
+  max-width: 500px; /* Adjust the maximum width as needed */
+  width: 100%;
+}
+
+/* Add any additional styling for the form elements as desired */
+
+input,
+textarea,
+button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  /* Adjust the max-width value to match your desired breakpoint */
+  .page2containerMail {
+    flex-direction: column;
+    height: auto;
+  }
 }

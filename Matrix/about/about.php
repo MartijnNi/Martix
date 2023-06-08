@@ -37,7 +37,7 @@
         <div class="layoutContainer">
             <div class="left">
                 <p class="leftTitel">Playlist</p>
-                <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/2Hux834asVYV5U7h0ApNSk?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/2Hux834asVYV5U7h0ApNSk?utm_source=generator&theme=0" width="100%" height="100%" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
             </div>
             <div class="middel">
                 <p class="middelTitel">Spotlight</p>
