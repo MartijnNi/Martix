@@ -17,7 +17,7 @@
             <li><a href="../index.php">Home</a></li>
             <li><a href="../about/about.php">Music</a></li>
             <li><a href="../Contact/contact.php">Contact</a></li>
-            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="../Gallery/gallery.php">Gallery</a></li>
         </ul>
 
     </div>
