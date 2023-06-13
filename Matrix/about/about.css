@@ -10,20 +10,15 @@ html {
   background-color: #000000;
 }
 
-#particles-js {
-  position: absolute;
-  width: 100%;
-  height: 210vh;
-  background: #000000;
-  z-index: 1;
-}
-
-.screen1Container {
+.screen2Container {
+  background-color: #000000;
   display: flex;
-  border: red 2px;
-  z-index: 2;
   width: auto;
-  height: 91vh;
+  height: 105vh;
+  flex-direction: column;
+  background-image: url(../Content/wallpaperflare-cropped.jpg);
+  background-position: center;
+  background-size: cover;
 }
 
 .titelContainer {
@@ -40,14 +35,6 @@ html {
   color: rgb(255, 255, 255);
   user-select: none;
   margin: auto;
-}
-
-.screen2Container {
-  background-color: #000000;
-  display: flex;
-  width: auto;
-  height: 100vh;
-  flex-direction: column;
 }
 
 .titelBar {
@@ -117,8 +104,6 @@ iframe {
 }
 
 .titelBar2 {
-  margin-top: 5.3rem;
-
   padding-top: 0.5rem;
   z-index: 2;
   height: 6rem;
@@ -143,21 +128,6 @@ iframe {
 /* Events */
 
 @media (max-width: 650px) {
-  #particles-js {
-    position: absolute;
-    width: 100%;
-    height: 235vh;
-    background: #000000;
-    z-index: 1;
-  }
-  .screen1Container {
-    display: flex;
-    border: red 2px;
-    z-index: 2;
-    width: auto;
-    height: 91vh;
-  }
-
   .titelContainer {
     z-index: 2;
     display: flex;
@@ -180,22 +150,6 @@ iframe {
     width: auto;
     height: 100vh;
     flex-direction: column;
-  }
-
-  .titelBar {
-    padding-top: 0.5rem;
-    z-index: 2;
-    height: 6rem;
-    width: 100%;
-    margin-bottom: 2rem;
-    background-color: rgba(18, 18, 18, 0.791);
-
-    font-family: "Bruno Ace", cursive;
-    font-size: 6vw;
-    text-align: center;
-    justify-content: center;
-    color: aliceblue;
-    user-select: none;
   }
 
   .layoutContainer {
@@ -223,7 +177,6 @@ iframe {
   }
 
   .middel {
-    margin-top: 3rem;
     margin-bottom: 3rem;
     height: 50vh;
     padding: auto;
@@ -237,6 +190,7 @@ iframe {
   }
 
   .left {
+    margin-bottom: 6rem;
     height: 53.3vh;
     margin-top: 5rem;
   }
@@ -255,7 +209,7 @@ iframe {
   }
 
   .titelBar2 {
-    margin-top: 16rem;
+    margin-top: 0rem;
     padding-top: 0.5rem;
     z-index: 2;
     height: 6rem;

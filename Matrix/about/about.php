@@ -13,7 +13,6 @@
 
 <body>
     <?php include '../navbar/navbar.php'; ?>
-    <div id="particles-js"></div>
     <div class="screen2Container">
         <div class="layoutContainer">
             <div class="left">
