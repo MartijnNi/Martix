@@ -1,3 +1,7 @@
+particlesJS.load("particles-js", "assets/particles.json", function () {
+  console.log("callback - particles.js config loaded");
+});
+
 particlesJS("particles-js", {
   particles: {
     number: { value: 160, density: { enable: true, value_area: 900 } },

@@ -18,9 +18,8 @@
     </div>
 </body>
 <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-<script src="http://threejs.org/examples/js/libs/stats.min.js"></script>
+<script src="gallery.js"></script>
 <script src="../navbar/navMenu.js"></script>
-<script src="./gallery.js"></script>
 
 
 </html>
