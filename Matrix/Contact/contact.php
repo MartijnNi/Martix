@@ -8,7 +8,7 @@
     <link rel="shortcut icon" href="../Content/Matrix-Brackets-logo-transparant.png" type="image/x-icon">
     <link rel="stylesheet" href="../navbar/navbar.css">
     <link rel="stylesheet" href="contact.css">
-    <title>Matrix | About</title>
+    <title>Martix | About</title>
 </head>
 
 <body>
@@ -20,6 +20,7 @@
         </div>
     </div>
     <div class="page2container">
+        <div class="contain"></div>
         <div id="container">
             <h2>&bull; Keep in Touch &bull;</h2>
             <div class="underline">

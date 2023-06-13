@@ -6,20 +6,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="navbar/navbar.css">
-    <link rel="stylesheet" href="/MatrixEfx/MatrixEfx.css">
     <link rel="stylesheet" href="index.css">
     <link rel="shortcut icon" href="../Content/Matrix-Brackets-logo-transparant.png" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/earlyaccess/sawarabigothic.css" rel="stylesheet" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.0/p5.js" type="text/javascript"></script>
-    <title>Haustix | Home</title>
+    <title>Matrix | Home</title>
 </head>
 
 <body onload="init()">
     <?php include 'navbar/navbar.php'; ?>
     <div class="container-content">
         <div class="logo-container">
-            <h1>HAUSTIX</h1>
+            <h1>MARTIX</h1>
         </div>
     </div>
     <div class="socialsBarontainer">
@@ -36,14 +35,14 @@
     <div class="container-down">
         <div class="container-left">
             <p class="container-left-tekst">
-                Haustix, het alter ego van de Nederlandse Martijn Nieuwenburg (geboren in 2003).<br><br>
+                Martix, het alter ego van de Nederlandse Martijn Nieuwenburg (geboren in 2003).<br><br>
                 Zijn reis begon op slechts zesjarige leeftijd, toen hij al zijn eerste stappen zette in het remixen van muziek op zijn computer en optredens verzorgde op lokale straatfeesten.
                 <br><br>Martijns passie voor muziek was van jongs af aan duidelijk zichtbaar. Met een natuurlijk gevoel voor ritme en een niet aflatende nieuwsgierigheid naar geluidsexperimenten, onthulde hij al snel zijn aanleg voor het creëren van unieke en meeslepende muzikale ervaringen.
                 <br><br>Zijn vroege optredens werden gekenmerkt door zijn jeugdige enthousiasme en zijn vermogen om mensen op de dansvloer te krijgen.
-                Naarmate hij ouder werd, begon DJ Haustix steeds vaker op te treden in exclusieve privéclubs, bij dining experiences en voor lokale gemeentes in Apeldoorn. Zijn vaardigheden als DJ en zijn vermogen om het publiek te vermaken en te laten genieten van zijn muziek.<br><br>
-                Met een ongeëvenaarde energie en charisma weet DJ Haustix elke locatie om te toveren tot een bruisende en onvergetelijke ervaring.
+                Naarmate hij ouder werd, begon DJ Martix steeds vaker op te treden in exclusieve privéclubs, bij dining experiences en voor lokale gemeentes in Apeldoorn. Zijn vaardigheden als DJ en zijn vermogen om het publiek te vermaken en te laten genieten van zijn muziek.<br><br>
+                Met een ongeëvenaarde energie en charisma weet DJ Martix elke locatie om te toveren tot een bruisende en onvergetelijke ervaring.
 
-                Hoewel hij zijn carrière nog steeds aan het opbouwen is, heeft DJ Haustix al een indrukwekkende groei en erkenning gekend.
+                Hoewel hij zijn carrière nog steeds aan het opbouwen is, heeft DJ Martix al een indrukwekkende groei en erkenning gekend.
             </p>
         </div>
         <div class="container-right">
@@ -52,6 +51,9 @@
                 <p>Martijn Nieuwenburg</p>
             </div>
         </div>
+    </div>
+    <div class="footercontainer">
+        <?php include 'footer/footer.php'; ?>
     </div>
 </body>
 <script src="./MatrixEfx.js"></script>
