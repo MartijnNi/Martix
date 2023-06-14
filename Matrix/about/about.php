@@ -33,13 +33,12 @@
         <div class="titelBar2">
             <p>Events</p>
         </div>
-    </div>
+        <div class="calender">
+            <iframe src="https://calendar.google.com/calendar/embed?height=NaN&wkst=1&bgcolor=%23009688&ctz=Europe%2FAmsterdam&showTz=0&showTitle=1&showNav=0&showDate=0&showPrint=0&showTabs=1&showCalendars=1&src=MDgwYTRhMzJkOWExMzExZDYwOTUwNWM3OTlhYTJjZWI5NTU1NzU1MDA1ZWQ4OTc0Mzk0YWNhMWY5NjI0MzQ1N0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%23D50000" style="border:solid 1px #777" width="NaN" height="NaN" frameborder="0" scrolling="no"></iframe>
+        </div>
 </body>
-<script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> <!-- stats.js lib -->
-<script src="http://threejs.org/examples/js/libs/stats.min.js"></script>
 <script src="../navbar/navMenu.js"></script>
 <script src="aboutBackgroundParticels.js"></script>
-<script src="eventcards.js"></script>
-
+<script src='https://cdn.jsdelivr.net/npm/fullcalendar@6.1.8/index.global.min.js'></script>
 
 </html>
