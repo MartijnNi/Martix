@@ -21,7 +21,7 @@
             </div>
             <div class="middel">
                 <p class="middelTitel">Spotlight</p>
-                <iframe width="100%" height="100%" scrolling="no" frameborder="no" allow="false" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1443082939&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+                <iframe width="100%" height="100%" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1544426602&color=%236a5a50&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
             </div>
             <div class="right">
                 <p class="leftTitel">Playlist</p>
@@ -29,16 +29,27 @@
             </div>
         </div>
     </div>
-    <div class="screen3Container">
+    <div class="screen2Container">
         <div class="titelBar2">
             <p>Events</p>
         </div>
         <div class="calender">
             <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23009688&ctz=Europe%2FAmsterdam&showCalendars=0&showTabs=1&showPrint=0&showDate=1&showNav=1&src=MDgwYTRhMzJkOWExMzExZDYwOTUwNWM3OTlhYTJjZWI5NTU1NzU1MDA1ZWQ4OTc0Mzk0YWNhMWY5NjI0MzQ1N0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%23D50000" style="border:solid 1px #777" width="auto" height="auto" frameborder="0" scrolling="no"></iframe>
         </div>
+    </div>
+
+    <div class="screen3Container">
+        <div class="titelBar2">
+            <p>Live streams</p>
+        </div>
+        <div class="video">
+            <iframe src="https://www.youtube.com/embed/F0ccxDjEE3E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+    </div>
+
 </body>
 <script src="../navbar/navMenu.js"></script>
-<script src="aboutBackgroundParticels.js"></script>
+<script src="./aboutBackgroundParticels.js"></script>
 <script src='https://cdn.jsdelivr.net/npm/fullcalendar@6.1.8/index.global.min.js'></script>
 
 </html>
