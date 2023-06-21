@@ -39,13 +39,23 @@
     </div>
 
     <div class="screen3Container">
-        <div class="titelBar2">
+        <div class="titelBar3">
             <p>Live streams</p>
         </div>
-        <div class="video">
-            <iframe src="https://www.youtube.com/embed/F0ccxDjEE3E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <div class="carousel">
+            <div class="carousel-slide active">
+                <iframe src="https://www.youtube.com/embed/F0ccxDjEE3E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+            <div class="carousel-slide">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/Z07c_sJiT2Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
         </div>
+
+        <div class="carousel-button" id="prevBtn">Previous</div>
+        <div class="carousel-button" id="nextBtn">Next</div>
     </div>
+
+
 
 </body>
 <script src="../navbar/navMenu.js"></script>

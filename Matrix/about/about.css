@@ -146,28 +146,80 @@ iframe {
 
 /* Video' */
 .screen3Container {
-  height: 101vh;
-  width: 100%;
-  z-index: 3;
-  background-image: url(../Content/wallpaperflare-cropped.jpg);
+  height: 105vh;
+  display: flex;
   flex-direction: column;
-  border: 2px rgb(0, 0, 0);
+  align-items: center;
+  justify-content: center;
+  background-image: url(../Content/wallpaperflare-cropped.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.video {
-  width: 50%;
-  height: 60%;
-  margin-left: auto;
-  margin-right: auto;
+.titelBar3 {
+  padding-top: 0.5rem;
+  z-index: 2;
+  height: 6rem;
+  width: 100%;
+  background-color: rgba(18, 18, 18, 0.791);
+  font-family: "Bruno Ace", cursive;
+  font-size: 30px;
+  text-align: center;
+  justify-content: center;
+  color: aliceblue;
 }
-.video iframe {
+
+/* Carousel container */
+.carousel {
+  margin-top: 2rem;
+  display: flex;
+  overflow: hidden;
+  width: 70vw; /* Adjust the width as per your needs */
+  height: 75vw; /* Adjust the height as per your needs */
+}
+
+/* Carousel slide */
+.carousel-slide {
+  width: 100%;
+  display: none;
+}
+
+.carousel-slide.active {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel-slide iframe {
   width: 100%;
   height: 100%;
-  border: rgb(116, 116, 116) 1px solid;
-  margin-top: 10rem;
 }
+
+/* Buttons */
+.carousel-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+  width: 100px; /* Adjust the width as needed */
+  height: 50px; /* Adjust the height as needed */
+  background-color: #ccc;
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+  margin: 5px;
+  border-radius: 25px; /* Adjust the border-radius as needed */
+  transition: background-color 0.3s ease;
+}
+
+.carousel-button:hover {
+  background-color: #999;
+}
+
+.carousel-button#nextBtn {
+  margin-left: 10px; /* Add spacing between the buttons */
+}
+
 @media (max-width: 650px) {
   .titelContainer {
     z-index: 2;
