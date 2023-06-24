@@ -13,7 +13,7 @@
 
 <body>
     <?php include '../navbar/navbar.php'; ?>
-    <div class="screen2Container">
+    <div class="screen1Container">
         <div class="layoutContainer">
             <div class="left">
                 <p class="leftTitel">Playlist</p>
